@@ -1,0 +1,446 @@
+/* media file start */
+
+@media (max-width: 639.98px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .header {
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .header .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    .item-1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .item-2 {
+        width: 100%;
+    }
+
+    .item-1 p {
+        padding-block: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* navbar */
+    .navbar {
+        position: relative;
+    }
+    .nav-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 0px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .fa-moon {
+        font-size: 0px;
+    }
+
+    /* chefs */
+
+    .chefs {
+        padding-block: 40px;
+    }
+
+    .chefs .container {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 100%;
+    }
+    
+    /* gallary */
+    .gallery {
+        padding-block: 40px;
+    }
+
+    .gallery .photo-gallery {
+        flex-direction: column;
+    }
+
+    /* contact */
+    .contact {
+        padding-block: 40px;
+    }
+
+    .contact .container {
+        width: 80%;
+    }
+
+    .contact .container .card1 {
+        width: 100%;
+    }
+
+    .text-boxes #name {
+        width: 100%;
+    }
+    
+    .text-boxes #email {
+        width: 100%;
+    }
+    .text-boxes #subject {
+        width: 100%;
+    }
+    
+    .text-boxes #message {
+        width: 100%;
+        resize: none;
+    }
+
+    /* footer */
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer .column1 {
+        width: 100%;
+    }
+    
+    .footer .column2 {
+        width: 100%;
+    }
+    
+    .footer .column3 {
+        width: 100%;
+    }
+
+    .footer .column2 .email {
+        flex-direction: column;
+    }
+
+    .footer .column2 textarea {
+        width: 100%;
+    }
+
+    .footer .column2 .btn-4 {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:640px) and (max-width: 767.98px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .header {
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 100px;
+    }
+
+    .header .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    .item-1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .item-2 {
+        width: 100%;
+    }
+
+    .item-1 p {
+        padding-block: 10px;
+    }
+
+
+    /* chefs */
+
+    .chefs {
+        padding-block: 40px;
+    }
+
+    .chefs .container {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: calc(calc(100% - 30px)/2);
+    }
+    
+    /* gallary */
+    .gallery {
+        padding-block: 40px;
+    }
+
+    .gallery .photo-gallery {
+        flex-direction: row;
+    }
+
+    /* contact */
+    .contact {
+        padding-block: 40px;
+    }
+
+    .contact .container {
+        width: 80%;
+    }
+
+    .contact .container .card1 {
+        width: 100%;
+    }
+
+    .text-boxes #name {
+        width: 100%;
+    }
+    
+    .text-boxes #email {
+        width: 100%;
+    }
+    .text-boxes #subject {
+        width: 100%;
+    }
+    
+    .text-boxes #message {
+        width: 100%;
+        resize: none;
+    }
+
+    /* footer */
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer .column1 {
+        width: 100%;
+    }
+    
+    .footer .column2 {
+        width: 100%;
+    }
+    
+    .footer .column3 {
+        width: 100%;
+    }
+
+    .footer .column2 .email {
+        flex-direction: column;
+    }
+
+    .footer .column2 textarea {
+        width: 100%;
+    }
+
+    .footer .column2 .btn-4 {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .header {
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 100px;
+    }
+
+    .header .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    .item-1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .item-2 {
+        width: 100%;
+    }
+
+    .item-1 p {
+        padding-block: 10px;
+    }
+
+
+    /* chefs */
+
+    .chefs {
+        padding-block: 40px;
+    }
+
+    .chefs .container {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: calc(calc(100% - 30px)/2);
+    }
+    
+    /* gallary */
+    .gallery {
+        padding-block: 40px;
+    }
+
+    .gallery .photo-gallery {
+        flex-direction: row;
+    }
+
+    /* contact */
+    .contact {
+        padding-block: 40px;
+    }
+
+    .contact .container {
+        width: 80%;
+    }
+
+    .contact .container .card1 {
+        width: 100%;
+    }
+
+    .text-boxes #name {
+        width: 100%;
+    }
+    
+    .text-boxes #email {
+        width: 100%;
+    }
+    .text-boxes #subject {
+        width: 100%;
+    }
+    
+    .text-boxes #message {
+        width: 100%;
+        resize: none;
+    }
+
+    /* footer */
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer .column1 {
+        width: 100%;
+    }
+    
+    .footer .column2 {
+        width: 100%;
+    }
+    
+    .footer .column3 {
+        width: 100%;
+    }
+
+    .footer .column2 .email {
+        flex-direction: column;
+    }
+
+    .footer .column2 textarea {
+        width: 100%;
+    }
+
+    .footer .column2 .btn-4 {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .header {
+        height: 100vh;
+        padding-bottom: 20px;
+        padding-top: 100px;
+    }
+
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 0px;
+    }
+    
+    .item-1 {
+        width: 45%;
+        display: flex;
+        align-items: center;
+    }
+
+    .item-2 {
+        width: 45%;
+    }
+
+    .item-1 p {
+        padding-block: 10px;
+    }
+
+}
+
+@media (min-width: 1279.98px) and (max-width: 1535px) {
+    .container {
+        width: 70%;
+    }
+
+    /* footer */
+
+    .footer .container {
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+
+    .footer .column1 {
+        width: calc(calc(100% -25px)/2);
+    }
+    
+    .footer .column2 {
+        width: calc(calc(100% -25px)/2);
+    }
+    
+    .footer .column3 {
+        width: 50%;
+    }
+
+}
+
+/* media file end */
